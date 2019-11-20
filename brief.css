@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+h1 {
+	margin-top: 0;	 /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
+	padding-right: 15px;
+	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
+}
+.container {
+	width: 960px;
+	background-color: #0FF;
+	margin: 20px auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐 */
+}
+
+.content {
+
+	padding: 10px 0;
+}
+.footer{
+	text-align:center;
+	font-size:20px;
+	color:#FFF;
+}
+.footer p{
+	line-height: 50px;
+}
+
