@@ -11,6 +11,13 @@
 	color:#0CF;
 	padding:150px 0;
 }
+.img6{
+	width: 608px;
+	height: 430px;
+}
+.row-center{
+	left: 150px;
+}
 .title{
 	font-size:30px;
 }
@@ -27,4 +34,7 @@
 }
 .footer p{
 	line-height: 50px;
+}
+.thumbnail{
+    height: 600px;
 }
