@@ -21,7 +21,13 @@ h1 {
 	text-align:center;
 }
 
-
+.jumu{
+	text-align:center;
+	background: url('../img/5.png') no-repeat;
+	background-size:cover;
+	color:#0CF;
+	padding:150px 0;
+}
 .title{
 	font-size:30px;
 }
